@@ -88,6 +88,7 @@ rules:
     resources:
       - servicemeshcontrolplanes
       - servicemeshmembers
+      - servicemeshmemberrolls
   - verbs:
       - '*'
     apiGroups:
