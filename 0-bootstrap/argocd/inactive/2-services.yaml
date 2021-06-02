@@ -98,7 +98,7 @@ spec:
   source:
     path: 2-services/argocd/active/instances
     repoURL: https://github.com/csantanapr/what-is-gitops.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true

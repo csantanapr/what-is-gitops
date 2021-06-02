@@ -57,7 +57,7 @@ spec:
   source:
     path: 3-infra/argocd/active
     repoURL: https://github.com/csantanapr/what-is-gitops.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
