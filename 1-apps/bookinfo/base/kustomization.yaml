@@ -11,3 +11,4 @@ resources:
 - 13-services/ratings.yaml
 - 13-services/reviews.yaml
 - 13-services/product-page.yaml
+- 14-service-mesh-member/default.yaml
