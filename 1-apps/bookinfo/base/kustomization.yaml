@@ -1,0 +1,4 @@
+resources:
+- 11-service-accounts/details.yaml
+- 12-deployments/details.yaml
+- 13-services/details.yaml
