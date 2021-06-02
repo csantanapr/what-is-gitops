@@ -1,18 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-staging-secrets
+  name: apps-dev
   annotations:
     argocd.argoproj.io/sync-wave: "400"
   finalizers:
-    - resources-finalizer.argocd.argoproj.io  
+    - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: staging
+    namespace: dev
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: 1-apps/instances/namespace-staging/secrets
+    path: 1-apps/instances/namespace-dev/secrets
     repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
     targetRevision: master
   syncPolicy:
