@@ -88,6 +88,11 @@ rules:
     resources:
       - servicemeshcontrolplanes
       - servicemeshmembers
+  - verbs:
+      - '*'
+    apiGroups:
+      - 'networking.istio.io'
+    resources:
       - virtualservices
       - gateways
   - verbs:
