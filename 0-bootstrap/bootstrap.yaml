@@ -87,6 +87,7 @@ rules:
       - 'maistra.io'
     resources:
       - servicemeshcontrolplanes
+      - servicemeshmembers
   - verbs:
       - create
       - list

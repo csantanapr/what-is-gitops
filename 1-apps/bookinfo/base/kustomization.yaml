@@ -12,3 +12,6 @@ resources:
 - 13-services/reviews.yaml
 - 13-services/product-page.yaml
 - 14-service-mesh-member/default.yaml
+- 15-service-mesh-gateway/bookinfo.yaml
+- 16-service-mesh-virtual-service/bookinfo.yaml
+
