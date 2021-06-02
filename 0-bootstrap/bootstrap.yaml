@@ -88,6 +88,8 @@ rules:
     resources:
       - servicemeshcontrolplanes
       - servicemeshmembers
+      - virtualservices
+      - gateways
   - verbs:
       - create
       - list
