@@ -1,0 +1,4 @@
+bases:
+  - ../../base
+patches:
+  - 12-deployments/details.yaml

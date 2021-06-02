@@ -6,4 +6,4 @@ metadata:
     app: details
     version: v1
 spec:
-  replicas: 3
+  replicas: 2
