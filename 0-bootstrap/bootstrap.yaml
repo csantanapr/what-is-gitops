@@ -190,8 +190,9 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   name: openshift-gitops-operator
+  namespace: openshift-operators
 spec:
-  channel: preview
+  channel: stable
   installPlanApproval: Automatic
   name: openshift-gitops-operator
   source: redhat-operators
@@ -208,7 +209,7 @@ spec:
   project: default
   source:
     path: 0-bootstrap/argocd/active
-    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
+    repoURL: https://github.com/csantanapr/what-is-gitops.git
     targetRevision: master
   syncPolicy:
     automated:

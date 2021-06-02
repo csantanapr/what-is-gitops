@@ -56,7 +56,7 @@ spec:
   project: default
   source:
     path: 3-infra/argocd/active
-    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
+    repoURL: https://github.com/csantanapr/what-is-gitops.git
     targetRevision: master
   syncPolicy:
     automated:
