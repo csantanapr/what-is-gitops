@@ -13,7 +13,7 @@ spec:
   project: applications
   source:
     path: 1-apps/bookinfo/overlays/staging
-    repoURL: https://github.com/csantanapr/what-is-gitops
+    repoURL: https://github.com/csantanapr/what-is-gitops.git
     targetRevision: main
   syncPolicy:
     automated:
