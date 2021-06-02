@@ -95,6 +95,7 @@ rules:
     resources:
       - virtualservices
       - gateways
+      - destinationrules
   - verbs:
       - create
       - list
