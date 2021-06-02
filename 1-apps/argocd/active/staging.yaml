@@ -12,9 +12,9 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: 1-apps/instances/namespace-staging/secrets
-    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    path: 1-apps/bookinfo/overlays/staging
+    repoURL: https://github.com/csantanapr/what-is-gitops
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
