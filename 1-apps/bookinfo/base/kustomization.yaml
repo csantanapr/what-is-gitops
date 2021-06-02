@@ -1,4 +1,13 @@
 resources:
 - 11-service-accounts/details.yaml
+- 11-service-accounts/ratings.yaml
+- 11-service-accounts/reviews.yaml
+- 11-service-accounts/product-page.yaml
 - 12-deployments/details.yaml
+- 12-deployments/ratings.yaml
+- 12-deployments/reviews.yaml
+- 12-deployments/product-page.yaml
 - 13-services/details.yaml
+- 13-services/ratings.yaml
+- 13-services/reviews.yaml
+- 13-services/product-page.yaml
