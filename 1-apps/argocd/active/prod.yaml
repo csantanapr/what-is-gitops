@@ -12,8 +12,8 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: 1-apps/bookinfo/overlays/prod
-    repoURL: https://github.com/csantanapr/what-is-gitops.git
+    path: bookinfo/kustomize/overlays/prod
+    repoURL: https://github.com/csantanapr/gitops-bookinfo.git
     targetRevision: main
   syncPolicy:
     automated:
