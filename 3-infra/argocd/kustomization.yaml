@@ -1,0 +1,8 @@
+resources:
+- ./3-infra/argocd/namespace-ci.yaml
+- ./3-infra/argocd/namespace-dev.yaml
+#- ./3-infra/argocd/namespace-istio-system.yaml
+- ./3-infra/argocd/namespace-prod.yaml
+- ./3-infra/argocd/namespace-sealed-secrets.yaml
+- ./3-infra/argocd/namespace-staging.yaml
+- ./3-infra/argocd/namespace-tools.yaml

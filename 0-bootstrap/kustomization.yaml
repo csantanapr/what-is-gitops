@@ -1,0 +1,8 @@
+bases:
+- ../1-apps/argocd/
+- ../2-services/argocd/
+- ../3-infra/argocd/
+resources:
+- ./argocd/1-apps.yaml
+- ./argocd/2-services.yaml
+- ./argocd/3-infra.yaml

@@ -1,0 +1,5 @@
+resources:
+- ./1-apps/argocd/ci.yaml
+- ./1-apps/argocd/dev.yaml
+- ./1-apps/argocd/prod.yaml
+- ./1-apps/argocd/stage.yaml
