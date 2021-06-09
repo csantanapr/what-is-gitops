@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: knative
+  name: knative-instance
   annotations:
     argocd.argoproj.io/sync-wave: "200"
   labels:
