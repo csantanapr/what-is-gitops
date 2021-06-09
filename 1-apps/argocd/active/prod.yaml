@@ -12,7 +12,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: bookinfo/kustomize/overlays/prod
+    path: kustomize/overlays/prod
     repoURL: https://github.com/csantanapr/gitops-bookinfo.git
     targetRevision: main
   syncPolicy:
