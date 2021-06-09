@@ -29,6 +29,10 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: openldap
     server: https://kubernetes.default.svc
+  - namespace: openshift-serverless
+    server: https://kubernetes.default.svc
+  - namespace: knative-serving
+    server: https://kubernetes.default.svc
   clusterResourceWhitelist:
   # TODO: SCC needs to be moved to 3-infra, here for now for artifactory
   - group: "security.openshift.io"

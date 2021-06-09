@@ -1,0 +1,23 @@
+apiVersion: operator.knative.dev/v1alpha1
+kind: KnativeServing
+metadata:
+  name: knative-serving
+  namespace: knative-serving
+  finalizers:
+    - knative-serving-openshift
+    - knativeservings.operator.knative.dev
+spec:
+  cluster-local-gateway: {}
+  config:
+    deployment:
+      queueSidecarImage: >-
+        registry.redhat.io/openshift-serverless-1/serving-queue-rhel8@sha256:51f51be17f5e47d30dae3efe3e89bfe52ffc23d9fbea36613d36e0b576e7391c
+    domain:
+      2886795283-80-jago05.environments.katacoda.com: ''
+    network:
+      domainTemplate: '{{.Name}}-{{.Namespace}}.{{.Domain}}'
+  controller-custom-certs:
+    name: config-service-ca
+    type: ConfigMap
+  high-availability:
+    replicas: 2

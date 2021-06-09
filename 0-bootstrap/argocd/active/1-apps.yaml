@@ -6,6 +6,7 @@ metadata:
 spec:
   sourceRepos:
   - https://github.com/csantanapr/what-is-gitops.git
+  - https://github.com/csantanapr/gitops-bookinfo.git
   destinations:
   - namespace: ci
     server: https://kubernetes.default.svc
